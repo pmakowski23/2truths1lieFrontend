@@ -46,6 +46,10 @@ const Lobby = (props) => {
       });
     });
 
+    window.on("beforeunload", function () {
+      return "Jeśli wyjdziesz nie będziesz mógł uczestniczyć w tej grze.";
+    });
+
     return () => socket.disconnect();
   });
 
