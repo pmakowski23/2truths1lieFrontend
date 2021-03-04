@@ -21,7 +21,12 @@ const Lobby = (props) => {
   const [userData, setUserData] = useState(null);
 
   useEffectOnlyOnce(() => {
-    socket = io(ENDPOINT);
+    socket = io(ENDPOINT, {
+      withCredentials: true,
+      extraHeaders: {
+        "my-custom-header": "abcd",
+      },
+    });
 
     socket.emit(
       "login",
