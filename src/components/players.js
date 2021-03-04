@@ -19,7 +19,7 @@ const Players = ({ lobbyData, userUid, removePlayer }) => {
 
   return (
     <Typography component={"span"} variant="body1">
-      <h1>Players:</h1>
+      <h1>Players</h1>
       <Grid container spacing={3}>
         {lobbyData.players.map((player) => (
           <Grid item key={player.userId}>

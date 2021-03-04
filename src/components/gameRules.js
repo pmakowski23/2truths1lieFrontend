@@ -11,28 +11,28 @@ const GameRules = () => {
       </p>
       <h3>Przebieg gry:</h3>
       <ol>
-        <li>Każy musi wpisać swoje 3 tezy i zatwierdzić przyciskiem.</li>
+        <li>Wszyscy wpisują swoje 3 tezy i zatwierdzić przyciskiem.</li>
         <li>
-          Kłamiący zatwierdza odczytanie swoich tez przyciskiem co daje 2 minuty
-          ekipie "detektywów" na zadawanie pytań dotyczących tych tez.
+          Kłamca zatwierdza odczytanie swoich tez przyciskiem co daje 2 minuty
+          reszcie graczy na zadawanie pytań dotyczących tych tez.
         </li>
         <li>
-          Po tym czasie mają czas na dyskusję między sobą gdzie kłamiący nie
-          musi już nic komentowac.
+          Po tym czasie mają czas na dyskusję między sobą, kłamca nie musi już
+          nic komentować.
         </li>
         <li>
-          Wszyscy wybierają swój typ (która teza jest kłamstwem) i zatwierdzają
-          gotowość przyciskiem.
+          Wszyscy wskazują fałszywą teżę i zatwierdzają gotowość przyciskiem.
         </li>
         <li>
-          Ogłaszana jest punktacja za rundę po czym kolejna osoba jest kłamcą.
+          Wyświetlana jest punktacja za rundę, po czym kolejna osoba zostaje
+          kłamcą.
         </li>
       </ol>
       <h3>Punktacja:</h3>
       <ul>
         <li>
-          Kłamiący dostaje punkt za każdą osobę która nie zgadnie, a reszta
-          dostaje punkty jak zgadnie która z tez jest kłamstwem.
+          Kłamca dostaje punkt za każdą osobę która nie zgadnie, a reszta graczy
+          dostaje punkty jak zgadnie która z tez jest falszywa.
         </li>
       </ul>
     </Typography>

@@ -18,11 +18,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### TO DO
 
-- displaing and selecting sentences
-  - if layer then can't select
-  - select sentence and validate if it is lie
-- adding points to users
-- check if lier is in lobby
+- wrap display name
 - removal of user by admin of lobby
 - checking if user can access lobby (max number of users)
 - user ranking
