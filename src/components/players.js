@@ -18,9 +18,9 @@ const Players = ({ lobbyData, userUid, removePlayer }) => {
   const classes = useStyles();
 
   return (
-    <Typography>
+    <Typography component={"span"} variant="body1">
       <h1>Players:</h1>
-      <Grid container justify="left" spacing={3}>
+      <Grid container spacing={3}>
         {lobbyData.players.map((player) => (
           <Grid item key={player.userId}>
             <Paper className={classes.paper} elevation={3}>

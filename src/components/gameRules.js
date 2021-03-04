@@ -2,7 +2,7 @@ import { Typography } from "@material-ui/core";
 
 const GameRules = () => {
   return (
-    <Typography>
+    <Typography component={"span"} variant="body1">
       <h1>Zasady gry</h1>
       <p>
         Każdy gracz przygotowuje 3 tezy o swoim życiu, a reszta musi odgadnąć

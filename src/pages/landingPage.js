@@ -9,7 +9,7 @@ import { io } from "socket.io-client";
 
 import { Grid, Button, TextField, makeStyles } from "@material-ui/core";
 
-const ENDPOINT = "localhost:5000";
+const ENDPOINT = "https://two-truths-one-lie.herokuapp.com/";
 let socket;
 
 const useStyles = makeStyles(() => ({

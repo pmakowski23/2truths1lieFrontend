@@ -34,7 +34,7 @@ const Choosing = ({ timer, lier, user, choosen }) => {
   };
 
   return (
-    <Typography className={classes.center}>
+    <Typography component={"span"} variant="body1" className={classes.center}>
       <h1>Kłamcą jest: {lier && <div>{lier.displayName}</div>}</h1>
 
       <Timer timer={timer} />

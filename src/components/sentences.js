@@ -38,7 +38,7 @@ const Sentences = ({ sendSenteces }) => {
   };
 
   return (
-    <Typography>
+    <Typography component={"span"} variant="body1">
       <Grid className={classes.marginTop} container>
         {sentences.map((sentence, i) => (
           <Sentence

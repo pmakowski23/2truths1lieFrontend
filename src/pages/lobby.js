@@ -10,7 +10,7 @@ import Choosing from "../components/choosing";
 import Players from "../components/players";
 import { Button } from "@material-ui/core";
 
-const ENDPOINT = "localhost:5000";
+const ENDPOINT = "https://two-truths-one-lie.herokuapp.com/";
 let socket;
 
 const Lobby = (props) => {
@@ -90,6 +90,8 @@ const Lobby = (props) => {
           )}
           {lobbyData.stage === 3 && (
             <Scores
+              round={lobbyData.round}
+              numOfPlayers={lobbyData.players.length}
               isAdmin={isAdmin}
               endGame={endGame}
               score={userData.newScore}

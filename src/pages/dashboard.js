@@ -6,7 +6,7 @@ import LandingPage from "./landingPage";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { IsAdminContext, UserContext } from "../context";
 import Lobby from "./lobby";
-import { Grid, Button, Typography, makeStyles } from "@material-ui/core";
+import { Grid, Button, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   header: {
