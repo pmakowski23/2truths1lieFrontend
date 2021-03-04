@@ -46,8 +46,9 @@ const Lobby = (props) => {
       });
     });
 
-    window.on("beforeunload", function () {
-      return "Jeśli wyjdziesz nie będziesz mógł uczestniczyć w tej grze.";
+    window.addEventListener("beforeunload", (e) => {
+      (e || window.event).returnValue =
+        "Stracisz zdobyte punkty i nie będziesz mógł znowu dołączyć do końca rundy";
     });
 
     return () => socket.disconnect();
