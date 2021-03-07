@@ -114,7 +114,14 @@ const Lobby = (props) => {
           )}
         </div>
       ) : (
-        <h1>Nie jesteś w lobby albo lobby nie istnieje.</h1>
+        <>
+          <h1>Coś poszło nie tak.</h1>
+          <img
+            src={process.env.PUBLIC_URL + "/patrick.png"}
+            alt="Patrick hammering plank to his head"
+          />
+          <p>Zostałeś wyrzucony z lobby albo lobby nie istnieje.</p>
+        </>
       )}
     </>
   );
