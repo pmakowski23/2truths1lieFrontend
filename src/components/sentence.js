@@ -30,9 +30,11 @@ const Sentence = ({
   };
 
   const handleCheckbox = (index) => {
-    const lieArray = [...lies].fill(false);
-    lieArray[index] = !lies[index];
-    setLies(lieArray);
+    if (!lies[index]) {
+      const lieArray = [...lies].fill(false);
+      lieArray[index] = !lies[index];
+      setLies(lieArray);
+    }
     setIsReady(false);
   };
 
