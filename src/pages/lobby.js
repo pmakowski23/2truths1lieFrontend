@@ -107,7 +107,12 @@ const Lobby = (props) => {
               score={userData.newScore}
             />
           )}
-          {isAdmin && lobbyData.stage === 0 && (
+          {isAdmin && lobbyData.stage === 0 && lobbyData.players.length === 1 && (
+            <Typography component={"span"} variant="body1">
+              <h1>Musi być w lobby przynajmniej 2 graczy.</h1>
+            </Typography>
+          )}
+          {isAdmin && lobbyData.stage === 0 && lobbyData.players.length > 1 && (
             <Button variant="contained" onClick={startGame}>
               Zacznij grę
             </Button>

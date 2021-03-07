@@ -22,6 +22,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - removal of user by admin of lobby
 - checking if user can access lobby (max number of users)
 - user ranking
-
-- [FIX] Ability to send all false lies
-- [FIX] Ability to start a game with only 1 player
