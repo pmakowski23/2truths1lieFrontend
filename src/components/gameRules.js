@@ -11,11 +11,8 @@ const GameRules = () => {
       </p>
       <h3>Przebieg gry:</h3>
       <ol>
-        <li>Wszyscy wpisują swoje 3 tezy i zatwierdzić przyciskiem.</li>
-        <li>
-          Kłamca zatwierdza odczytanie swoich tez przyciskiem co daje 2 minuty
-          reszcie graczy na zadawanie pytań dotyczących tych tez.
-        </li>
+        <li>Wszyscy wpisują swoje 3 tezy i muszą zatwierdzić przyciskiem.</li>
+        <li>Potem gracze mają 2 minuty na zadawanie pytań.</li>
         <li>
           Po tym czasie mają czas na dyskusję między sobą, kłamca nie musi już
           nic komentować.
