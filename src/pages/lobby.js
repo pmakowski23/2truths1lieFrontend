@@ -8,7 +8,7 @@ import Sentences from "../components/sentences";
 import Scores from "../components/scores";
 import Choosing from "../components/choosing";
 import Players from "../components/players";
-import { Button } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 
 const ENDPOINT = "https://two-truths-one-lie.herokuapp.com/";
 let socket;
@@ -114,14 +114,14 @@ const Lobby = (props) => {
           )}
         </div>
       ) : (
-        <>
+        <Typography component={"span"} variant="body1">
           <h1>Coś poszło nie tak.</h1>
           <img
             src={process.env.PUBLIC_URL + "/patrick.png"}
             alt="Patrick hammering plank to his head"
           />
           <p>Zostałeś wyrzucony z lobby albo lobby nie istnieje.</p>
-        </>
+        </Typography>
       )}
     </>
   );
