@@ -113,7 +113,7 @@ const Lobby = (props) => {
             </Button>
           )}
         </div>
-      ) : (
+      ) : lobbyData === undefined ? (
         <Typography component={"span"} variant="body1">
           <h1>Coś poszło nie tak.</h1>
           <img
@@ -122,7 +122,7 @@ const Lobby = (props) => {
           />
           <p>Zostałeś wyrzucony z lobby albo lobby nie istnieje.</p>
         </Typography>
-      )}
+      ) : null}
     </>
   );
 };
