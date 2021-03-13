@@ -1,3 +1,8 @@
+# Live on 
+```
+https://2truths1lie.netlify.app/
+```
+
 ### `yarn start`
 
 Runs the app in the development mode.\
