@@ -6,7 +6,6 @@ https://2truths1lie.netlify.app/
 
 #### UI 
 - [ ] Wrap display name
-- [ ] 
 - [ ] Users ranking in lobby
 
 #### Logic
