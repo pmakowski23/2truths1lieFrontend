@@ -2,6 +2,8 @@
 
 https://2truths1lie.netlify.app/
 
+[Backend repo](https://github.com/pmakowski23/2truths1lieBackend)
+
 # Game playthrough
 1. Every player need to write 3 facts about his life. From which only 1 needs to be a lie.
 2. Random player is selected as 'lier' and game is started.
